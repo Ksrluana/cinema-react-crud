@@ -1,0 +1,36 @@
+{
+  "filmes": [
+    {
+      "id": "1765321690515",
+      "titulo": "As branquelas",
+      "genero": "Comédia",
+      "duracao": 120,
+      "sinopse": "Dois agentes negros do FBI se disfarçam de garotas ricas e brancas para evitar o suposto sequestro das herdeiras do setor hoteleiro.",
+      "classificacao": "12 anos",
+      "datasExibicao": "10/12/2025"
+    }
+  ],
+  "salas": [
+    {
+      "id": "1765321708752",
+      "numero": 1,
+      "capacidade": 45
+    }
+  ],
+  "sessoes": [
+    {
+      "id": "1765321751906",
+      "filmeId": "1765321690515",
+      "salaId": "1765321708752",
+      "dataHora": "2025-12-10T20:00"
+    }
+  ],
+  "ingressos": [
+    {
+      "id": "1765321821764",
+      "sessaoId": "1765321751906",
+      "tipo": "Inteira",
+      "valor": 30
+    }
+  ]
+}

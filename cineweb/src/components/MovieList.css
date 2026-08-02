@@ -1,0 +1,45 @@
+.movie-row {
+  margin-bottom: 30px;
+  padding-left: 30px; /* Alinhado com o site */
+}
+
+.movie-row h2 {
+  margin: 0px 0px 10px 10px;
+  color: white;
+  font-size: 24px;
+}
+
+.movie-list-area {
+  overflow-x: auto; /* Permite rolar para o lado */
+  padding: 20px 0;
+}
+
+/* Esconde a barra de rolagem feia */
+.movie-list-area::-webkit-scrollbar {
+  display: none;
+}
+
+.movie-list {
+  display: flex;
+  gap: 15px;
+}
+
+.movie-item {
+  display: inline-block;
+  width: 150px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.movie-item img {
+  width: 100%;
+  border-radius: 5px;
+  transform: scale(0.9); /* Começa um pouquinho menor */
+  transition: all 0.2s;
+}
+
+/* Efeito de Zoom ao passar o mouse */
+.movie-item:hover {
+  transform: scale(1.1); /* Aumenta o card todo */
+  z-index: 99; /* Fica por cima dos outros */
+}
